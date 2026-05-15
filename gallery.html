@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+  <title>Gallery | Nimnadi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/89.1.png">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <h1 class="logo">nimnadi</h1>
+  <button class="hamburger" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="project.html">Projects</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero gallery-hero">
+  <h1 class="bg-text">GALLERY</h1>
+  <div class="hero-content">
+    <p class="handwritten">behind the scenes ✦</p>
+    <h2>my design journey &amp; explorations</h2>
+  </div>
+</section>
+
+<!-- GALLERY (SCRAPBOOK STYLE) -->
+<section class="gallery">
+  <div class="grid">
+    <div class="card">
+      <img src="images/83.webp" alt="Sketch design">
+      <p class="handwritten">initial sketch ideas</p>
+    </div>
+    <div class="card">
+      <img src="images/86.jpg" alt="Moodboard">
+      <p class="handwritten">mood + concept direction</p>
+    </div>
+    <div class="card">
+      <img src="images/84.png" alt="Floor plan">
+      <p class="handwritten">spatial planning</p>
+    </div>
+    <div class="card">
+      <img src="images/98.jpg" alt="Material exploration">
+      <p class="handwritten">material exploration</p>
+    </div>
+       <div class="card">
+      <img src="images/75.png" alt="Floor plans">
+      <p class="handwritten">Floor plans</p>
+    </div>
+       <div class="card">
+      <img src="images/54.jpg" alt="3D Models">
+      <p class="handwritten">3D Models</p>
+    </div>
+  </div>
+</section>
+
+<!-- STATEMENT -->
+<section class="statement">
+  <div class="statement-inner">
+    <h2>
+      every design starts with an idea,<br>
+      <span class="highlight">and evolves through process.</span>
+    </h2>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <h2>the process never stops ✦</h2>
+  <p>&copy; 2026 Nimnadi</p>
+</footer>
+
+<script>
+  document.querySelector('.hamburger').addEventListener('click', function () {
+    document.querySelector('.navbar nav').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
